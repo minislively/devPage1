@@ -3,6 +3,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* navbar */
+
 .navbar {
   height: 64px;
   position: fixed;
@@ -46,6 +48,7 @@
   text-align: center;
 }
 
+/* 검색 바 */
 
 .search {
   float: left;
@@ -71,6 +74,8 @@ input {
   line-height: 64px;
 }
 
+/* 오른쪽 세 개 */
+
 .circle {
   border-radius: 50%;
   width: 50px;
@@ -78,4 +83,77 @@ input {
   color: black;
   border: 25px solid black;
   float: left;
+}
+
+.container {
+  position: absolute;
+  width: 1095px;
+  height: 260px;
+  left: 386px;
+  padding-top: 150px;
+}
+
+.container .info {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.container .info p {
+  margin: 0;
+  margin-bottom: 13px;
+  color: #C4C4C4;
+}
+
+.container .info h2 {
+  font-size: 54px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.container .info a {
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #212AFF;
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));  
+}
+
+.box {
+  margin-bottom: 40px;
+}
+
+/* 하루 누적 요청량 */
+.dailyContainer {
+  position: absolute;
+  width: 531px;
+  height: 541px;
+  top: 350px;
+}
+
+.dailyContainer .dailyRequests {
+  height: 450px;
+  border: 1px solid #AFAFAF;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;  
+}
+
+/* 환율 수집 정보 */
+.exchangeContainer {
+  position: absolute;
+  width: 613px;
+  height: 541px;
+  left: 650px;
+  top: 350px;
+}
+
+.exchangeContainer .exchangeRequests {
+  height: 450px;
+  border: 1px solid #AFAFAF;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
 }
